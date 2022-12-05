@@ -10,8 +10,8 @@ Todo:
 import logging
 from copy import deepcopy
 
-import neat.utils as utils
-from neat.genotype.genome import Genome
+import ptneat.utils as utils
+from ptneat.genotype.genome import Genome
 
 
 logger = logging.getLogger(__name__)

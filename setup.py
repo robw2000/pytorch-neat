@@ -27,5 +27,5 @@ setup(
     ],
 
     keywords='neat pytorch neuroevolution',
-    packages=['neat']
+    packages=['ptneat']
 )

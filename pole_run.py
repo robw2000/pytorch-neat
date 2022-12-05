@@ -3,10 +3,10 @@ import logging
 import gym
 import torch
 
-import neat.population as pop
-import neat.experiments.pole_balancing.config as c
-from neat.visualize import draw_net
-from neat.phenotype.feed_forward import FeedForwardNet
+import ptneat.population as pop
+import ptneat.experiments.pole_balancing.config as c
+from ptneat.visualize import draw_net
+from ptneat.phenotype.feed_forward import FeedForwardNet
 
 
 logger = logging.getLogger(__name__)

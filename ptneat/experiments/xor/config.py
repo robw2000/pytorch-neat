@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 from torch import autograd
-from neat.phenotype.feed_forward import FeedForwardNet
+from ptneat.phenotype.feed_forward import FeedForwardNet
 
 
 class XORConfig:

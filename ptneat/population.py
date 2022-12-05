@@ -3,11 +3,11 @@ import random
 
 import numpy as np
 
-import neat.utils as utils
-from neat.genotype.genome import Genome
-from neat.species import Species
-from neat.crossover import crossover
-from neat.mutation import mutate
+import ptneat.utils as utils
+from ptneat.genotype.genome import Genome
+from ptneat.species import Species
+from ptneat.crossover import crossover
+from ptneat.mutation import mutate
 
 
 logger = logging.getLogger(__name__)

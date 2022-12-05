@@ -1,7 +1,7 @@
 import logging
 import torch
 import torch.nn as nn
-import neat.activations as a
+import ptneat.activations as a
 from torch import autograd
 
 

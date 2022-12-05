@@ -1,8 +1,8 @@
 import logging
 
-import neat.population as pop
-import neat.experiments.xor.config as c
-from neat.visualize import draw_net
+import ptneat.population as pop
+import ptneat.experiments.xor.config as c
+from ptneat.visualize import draw_net
 from tqdm import tqdm
 
 logger = logging.getLogger(__name__)
